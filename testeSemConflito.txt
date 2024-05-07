@@ -1,0 +1,5 @@
+3C010001   # load immediate $at, 0x0001
+24420001   # addiu $v0, $v0, 0x0001
+AC430004   # sw $v1, 0x0004($at)
+8C620008   # lw $v0, 0x0008($v1)
+AC430000   # sw $v1, 0x0000($at)
